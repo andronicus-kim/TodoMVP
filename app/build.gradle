@@ -70,7 +70,9 @@ android {
             events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
         }
     }
-    sourceSets { mock { java.srcDirs = ['src/mock/java', 'src/mock/java'] } }
+//    sourceSets {
+//        mock { java.srcDirs = ['src/mock/java', 'src/mock/java', 'src/androidTestMock/java/'] }
+//    }
 }
 
 dependencies {
