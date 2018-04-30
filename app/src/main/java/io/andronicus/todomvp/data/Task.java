@@ -16,5 +16,8 @@
 
 package io.andronicus.todomvp.data;
 
-public class Task {
+
+//This model class should be immutable
+
+public final class Task {
 }
