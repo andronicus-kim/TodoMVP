@@ -38,18 +38,15 @@ public final class Task {
     @ColumnInfo(name = "entryid")
     private final String mId;
 
-    @PrimaryKey
-    @NonNull
+    @Nullable
     @ColumnInfo(name = "title")
     private final String mTitle;
 
-    @PrimaryKey
-    @NonNull
+    @Nullable
     @ColumnInfo(name = "description")
     private final String mDescription;
 
-    @PrimaryKey
-    @NonNull
+
     @ColumnInfo(name = "completed")
     private final Boolean mCompleted;
 
